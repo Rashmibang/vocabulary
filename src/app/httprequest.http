@@ -1,0 +1,150 @@
+PUT https://vocab-6e138-default-rtdb.firebaseio.com/1.json
+Content-Type: application/json
+
+{
+  "word": "Refresh",
+  "meaning": [
+    {
+      "pos": "Verb: ",
+      "description": "give new strength or energy to; reinvigorate."
+    },
+    {
+      "pos": "Noun: ",
+      "description": "an act or function of updating the display on a screen."
+    }
+  ]
+}
+
+############
+PUT https://vocab-6e138-default-rtdb.firebaseio.com/2.json
+Content-Type: application/json
+
+{
+  "word": "Glory",
+  "meaning": [
+    {
+      "pos": "Verb: ",
+      "description": "take great pride or pleasure in ; exult in unpleasantly or boastfully."
+    },
+    {
+      "pos": "Noun: ",
+      "description": "high renown or honour won by notable achievements ; magnificence or great beauty ; the splendour and bliss of heaven."
+    }
+  ]
+}
+
+######
+PUT https://vocab-6e138-default-rtdb.firebaseio.com/3.json
+Content-Type: application/json
+
+{
+  "word": "philanthropist",
+  "meaning": [
+    {
+      "pos": "Noun: ",
+  "description": "a person who seeks to promote the welfare of others, especially by the generous donation of money to good causes."
+}
+]
+}
+
+#####
+PUT https://vocab-6e138-default-rtdb.firebaseio.com/4.json
+Content-Type: application/json
+
+{
+  "word": "crazy",
+  "meaning": [
+    {
+      "pos": "Verb: ",
+      "description": "extremely enthusiastic"
+    },
+    {
+      "pos": "Noun: ",
+      "description": "an act or function of updating the display on a screen"
+    }
+  ]
+}
+
+#####
+PUT https://vocab-6e138-default-rtdb.firebaseio.com/5.json
+Content-Type: application/json
+
+{
+  "word": "Euphoria",
+  "meaning":[ {
+    "pos": "Noun: ",
+    "description": "An excited state of joy ; a feeling of intense happiness"
+  }]
+}
+
+#####
+PUT https://vocab-6e138-default-rtdb.firebaseio.com/6.json
+Content-Type: application/json
+
+{
+  "word": "Stubborn",
+  "meaning":[ {
+    "pos": "Adjective: ",
+    "description": "firmly resisting; Refusing to move or to change ones opinion"
+  },
+    {
+      "pos": "Noun(uncountable): ",
+      "description": "A disease of citrus trees characterized by stunted growth, caused by Spiroplasma citri"
+    }]
+}
+
+#####
+PUT https://vocab-6e138-default-rtdb.firebaseio.com/7.json
+Content-Type: application/json
+
+{
+  "word": "hitched",
+  "meaning":[ {
+    "pos": "Verb: ",
+    "description": " to move (something) into a different position with a jerk ; fasten or tether ; travel by hitch-hiking."
+  }
+    ]
+}
+
+###
+PUT https://vocab-6e138-default-rtdb.firebaseio.com/8.json
+Content-Type: application/json
+
+{
+  "word": "Glad",
+  "meaning":[ {
+    "pos": "Adjective: ",
+    "description": "feeling pleasure or happiness ; causing happiness"
+  },{
+    "pos": "Verb: ",
+    "description": "make happy; please."
+  }]
+}
+
+###
+PUT https://vocab-6e138-default-rtdb.firebaseio.com/9.json
+Content-Type: application/json
+
+{
+  "word": "Hent",
+  "meaning":[ {
+    "pos": "Verb: ",
+    "description": "to take hold of ; to grasp to go beyond"
+  }]
+}
+
+###
+PUT https://vocab-6e138-default-rtdb.firebaseio.com/10.json
+Content-Type: application/json
+
+{
+  "word": "Sachet",
+  "meaning":[ {
+    "pos": "Noun: ",
+    "description": "a small scented cloth bag filled with fragnant material such as herbs ; a small sealed packet containing a single use quantity of any material"
+  }]
+}
+
+
+###
+GET https://vocab-6e138-default-rtdb.firebaseio.com/.json?shallow=true

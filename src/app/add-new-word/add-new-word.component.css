@@ -1,0 +1,54 @@
+h1 {
+  font-size: 3em;
+}
+
+.container {
+  font-family: 'sans-serif';
+  margin: 100px;
+  font-size: 1.2em;
+}
+
+input, select {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background: none;
+  font-size: 1.2em;
+
+  width: 100%;
+  max-width: 400px;
+}
+
+input::placeholder {
+  color: #CCCCCC;
+}
+
+input:focus, select:focus {
+  border-bottom: 1px solid #039be5;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-row {
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  width: 48%;
+  background: none;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+

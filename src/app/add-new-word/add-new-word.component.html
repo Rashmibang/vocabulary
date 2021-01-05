@@ -1,0 +1,31 @@
+<a [routerLink]="['/addNewWord']"></a>
+<div class="container">
+  <h1>
+    Add a word
+  </h1>
+  <form (ngSubmit)="Addword(f)" #f="ngForm">
+    <div class="input-row">
+      <label for="word">Word</label>
+      <input type="text" id="Word" placeholder="Enter a word here" ngModel name="word"  >
+    </div>
+    <div class="input-row">
+      <label for="pos">Type</label>
+      <select id="pos" ngModel name="type">
+        <option value="default" disabled selected></option>
+        <option value="Adverb">Adverb</option>
+        <option value="Noun">Noun</option>
+        <option value="Adjective">Adjective</option>
+        <option value="Verb">Verb</option>
+      </select>
+    </div>
+    <div class="input-row">
+      <label for="meaning">Meaning</label>
+      <input type="text" id="meaning" placeholder="Enter the meaning of the word" ngModel name="meaning">
+    </div>
+
+    <div class="input-row flex-row">
+      <button class="reset">Reset</button>
+      <button class="save">Save</button>
+    </div>
+  </form>
+</div>

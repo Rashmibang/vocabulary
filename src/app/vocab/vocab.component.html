@@ -1,0 +1,13 @@
+<div class="container" [ngStyle]="{'backgroundColor' : randomcolval} ">
+  <i class="fa fa-refresh" aria-hidden="true" (click)="change()"></i>
+  <div class="flex" *ngIf="text">
+    <div class="left">{{text.word | lowercase }}</div>
+    <div class="right">
+      <div *ngFor="let i of text.meaning">{{i.pos}}
+        <div>
+          {{i.description}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
